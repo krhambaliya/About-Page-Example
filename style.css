@@ -1,0 +1,248 @@
+.toppart {
+
+    height: 75px;
+    justify-content: space-between;
+    /* size: 10px; */
+    /* margin: auto; */
+    display: flex;
+    padding-bottom: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.h2c {
+    /* font-family: 'Montserrat', sans-serif; */
+    position: absolute;
+    right: 0;
+    color: white;
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 2%
+}
+
+.contectusbar {
+
+    background: rgba(22, 148, 211, 255);
+    font-size: px;
+    display: flex;
+
+
+}
+
+.contectus2 {
+    /* font-family: 'Montserrat', sans-serif; */
+    color: white;
+    float: left;
+    margin-left: 1rem;
+
+}
+.h4{
+    font-size:small;
+}
+.leftpart {
+    padding: 8px 16px;
+    margin-left: 21.5;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+
+
+}
+
+.rightpart ul li {
+    /* float:right;  */
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    margin-top: -200;
+    
+
+}
+
+.twopart {
+    position: fixed;
+}
+
+.logoimg {
+    margin-top: 0%;
+    width: 200px;
+    height: 50px;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    /* overflow-x: hidden; */
+    /* padding-top: 20px; */
+}
+
+.left {
+    left: 0;
+    margin-left: 1.5%;
+    /* background-color: #111; */
+}
+
+.img1 {
+    width: 75px;
+    height: 75px;
+    /* display: inline; */
+    /* padding-top: 3%; */
+
+}
+
+.img2 {
+    width: 75px;
+    height: 75px;
+    /* padding-left: 15%; */
+}
+
+.img3 {
+    /* padding-left: 25%; */
+    width: 75px;
+    height: 75px;
+
+}
+
+.centeredleft {
+    align-content: center;
+    /* text-align: center; */
+    /* display: inline-block; */
+}
+
+.inforight {
+    display: grid;
+}
+
+.address,
+.email,
+.phone {
+    display: inline-flex;
+    margin-top: 1.5%;
+}
+
+.address .email .phone {
+    display: grid;
+}
+
+.setfont,
+.setfont2,
+.setfont3 {
+    margin-left: 1%;
+}
+
+.right {
+
+    right: 0;
+    margin-bottom: %;
+    /* background-color: red; */
+}
+
+.vl {
+    position: absolute;
+    right: 0;
+    border-left: 5px dashed rgba(217, 217, 217, 255);
+    opacity: .5;
+    height: 100%;
+}
+
+.centered {
+    position: relative;
+    /* top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.table {
+    font-size: small;
+    margin-top: %;
+    align-content: center;
+}
+
+tr,
+td {
+    font: 1em sans-serif;
+    width: 200px;
+    /* border:2px solid black; */
+    padding: 9px;
+}
+
+input[type=text],
+select,
+textarea,
+input[type=url] {
+    width: 90%;
+    opacity: .5;
+    padding: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 1px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgba(255, 145, 77, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.fn:after {
+
+    content: " *";
+    color: red;
+
+}
+
+.ln:after {
+
+    content: " *";
+    color: red;
+
+}
+
+.e1:after {
+
+    content: " *";
+    color: red;
+
+}
+
+.p2:after {
+
+    content: " *";
+    color: red;
+
+}
+
+.url:after {
+
+    content: " *";
+    color: red;
+
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: rem;
+    background-color: #efefef;
+    text-align: center;
+}
